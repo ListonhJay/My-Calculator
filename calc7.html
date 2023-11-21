@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CALCULATOR 7 copy</title>
+  <link rel="stylesheet" href="calc7.css">
+</head>
+
+<body>
+  <div id="calc-container">
+    <div id="display">
+    </div>
+
+    <div onclick="button_clear()" class="grid-items" id="clear">CE</div>
+
+    <div onclick="numpad_button('1');" class="grid-items">1</div>
+    <div onclick="numpad_button('2')" class="grid-items">2</div>
+    <div onclick="numpad_button('3')" class="grid-items">3</div>
+
+    <div onclick="operator_button('+')" class="grid-items">+</div>
+
+    <div onclick="numpad_button('4')" class="grid-items">4</div>
+    <div onclick="numpad_button('5')" class="grid-items">5</div>
+    <div onclick="numpad_button('6')" class="grid-items">6</div>
+
+    <div onclick="operator_button('-')" class="grid-items">-</div>
+
+    <div onclick="numpad_button('7')" class="grid-items">7</div>
+    <div onclick="numpad_button('8')" class="grid-items">8</div>
+    <div onclick="numpad_button('9')" class="grid-items">9</div>
+
+    <div onclick="operator_button('x')" class="grid-items">x</div>
+
+    <div onclick="decimalButton()" class="grid-items" id="decimal">.</div>
+
+    <div onclick="numpad_button('0')" class="grid-items">0</div>
+
+    <div onclick="result_button()" class="grid-items">=</div>
+
+    <div onclick="operator_button('/')" class="grid-items" id="divide">/</div>
+  </div>
+  <script src="calc7.js"></script>
+</body>
+
+</html>
